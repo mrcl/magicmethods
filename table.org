@@ -1,0 +1,39 @@
+* A Guide to Python's Magic Methods
+
+*** Rafe Kettler
+
+Copyright © 2012 Rafe Kettler
+
+Version 1.17
+
+A PDF version of this guide can be obtained from
+[[http://www.rafekettler.com/magicmethods.pdf][my site]] or
+[[https://github.com/RafeKettler/magicmethods/raw/master/magicmethods.pdf][Github]].
+The magic methods guide has
+[[http://www.github.com/RafeKettler/magicmethods][a git repository at
+http://www.github.com/RafeKettler/magicmethods]]. Any issues can be
+reported there, along with comments, (or even contributions!).
+
+*Table of Contents*
+
+1.  [[#intro][Introduction]]
+2.  [[#construction][Construction and Initialization]]
+3.  [[#operators][Making Operators Work on Custom Classes]]
+
+    -  [[#comparisons][Comparison magic methods]]
+    -  [[#numeric][Numeric magic methods]]
+
+4.  [[#representations][Representing your Classes]]
+5.  [[#access][Controlling Attribute Access]]
+6.  [[#sequence][Making Custom Sequences]]
+7.  [[#reflection][Reflection]]
+8.  [[#abcs][Abstract Base Classes]]
+9.  [[#callable][Callable Objects]]
+10. [[#context][Context Managers]]
+11. [[#descriptor][Building Descriptor Objects]]
+12. [[#copying][Copying]]
+13. [[#pickling][Pickling your Objects]]
+14. [[#conclusion][Conclusion]]
+15. [[#appendix1][Appendix 1: How to Call Magic Methods]]
+16. [[#appendix2][Appendix 2: Changes in Python 3]]
+
